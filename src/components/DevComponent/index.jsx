@@ -3,12 +3,12 @@ import { NavLink, withRouter } from 'react-router-dom';
 
 import './style.css';
 
-const Home = () => {
+const DevComponent = () => {
   return (
     <div>
-      <h1> Test Home</h1>
+      <h1> Test DevComponent</h1>
     </div>
   );
 };
 
-export default Home;
+export default DevComponent;

@@ -8,14 +8,28 @@ import {
 } from 'react-router-dom';
 import CreateTest from './pages/CreateTest';
 import Home from './pages/Home';
+import DevComponent from './components/DevComponent';
+import FooterPage from './components/FooterPage';
 
 const Router = () => {
   return (
-    <div>
-      <h1>Test Router</h1>
-      <CreateTest />
-      <Home />
-    </div>
+    <BrowserRouter>
+      <div>
+        <Switch>
+          <h1> Test Router</h1>
+          <Route exact path='/'>
+            <Home />
+          </Route>
+          <Route exact path='/create'>
+            <CreateTest />
+          </Route>
+          <Route exact path='/dev'>
+            <DevComponent />
+          </Route>
+        </Switch>
+      </div>
+      <FooterPage />
+    </BrowserRouter>
   );
 };
 

@@ -6,7 +6,7 @@ import './style.css';
 const CreateTest = () => {
   return (
     <div>
-      <h1>Test CreateTest</h1>
+      <h1> Test CreateTest</h1>
     </div>
   );
 };
