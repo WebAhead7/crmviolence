@@ -29,7 +29,7 @@ const Router = () => {
           <Route exact path='/dev'>
             <DevComponent />
           </Route>
-          {/* <Route render={() => <Redirect to='/' />} /> */}
+          <Route render={() => <Redirect to='/' />} />
         </Switch>
       </main>
       <FooterPage />
