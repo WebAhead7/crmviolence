@@ -1,7 +1,7 @@
-import React from 'react';
-import { NavLink, withRouter } from 'react-router-dom';
-import { Table } from 'react-bootstrap';
-import './style.css';
+import React from 'react'
+import { NavLink, withRouter } from 'react-router-dom'
+import { Table } from 'react-bootstrap'
+import './style.css'
 
 const Home = () => {
   return (
@@ -150,7 +150,7 @@ const Home = () => {
         </table> */}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
