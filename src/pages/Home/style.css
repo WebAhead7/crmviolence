@@ -1,0 +1,62 @@
+.container {
+  position: absolute;
+  width: 1200px;
+  height: 750px;
+  left: 20%;
+  top: 90px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -1px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+.examlist {
+  position: absolute;
+  width: 1071px;
+  height: 510px;
+  left: 3%;
+  top: 210px;
+
+  background: #f3f3f3;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #14051d;
+  border-radius: 12px;
+  font-family: 'Comic Neue', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 14px;
+  color: hsl(23, 11%, 68%);
+  cursor: pointer;
+  padding: 15px 50px;
+  outline: none;
+  margin-top: 30px;
+}
+table {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.center {
+  position: absolute;
+  width: 214px;
+  height: 49px;
+  left: 850px;
+  top: 50px;
+}
+.container .tableh {
+  margin: 170px 10px;
+  width: 50%;
+  padding: 10px;
+  font-weight: bold;
+}
