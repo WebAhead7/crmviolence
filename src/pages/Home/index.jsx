@@ -1,7 +1,7 @@
-import React from 'react'
-import { NavLink, withRouter } from 'react-router-dom'
-import { Table } from 'react-bootstrap'
-import './style.css'
+import React from 'react';
+import { NavLink, withRouter } from 'react-router-dom';
+import { Table } from 'react-bootstrap';
+import './style.css';
 
 const Home = () => {
   return (
@@ -9,6 +9,8 @@ const Home = () => {
       <button className='btn center'>
         <NavLink to='/create'>Create Test</NavLink>
       </button>
+      <br />
+      <br />
       <h4 className='tableh'> Exam List: </h4>
       <div className='examlist table-responsive '>
         <Table striped bordered hover size='sm'>
@@ -150,7 +152,7 @@ const Home = () => {
         </table> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
