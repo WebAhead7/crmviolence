@@ -1,25 +1,25 @@
-import React, { useState } from "react";
-import { NavLink, withRouter } from "react-router-dom";
-import DragnDropFiles from "./components/DragnDropFiles";
-import DragnDropFiles from "./components/DragSentenceQuestion";
+import React, { useState } from 'react'
+import { NavLink, withRouter } from 'react-router-dom'
 
-import "./style.css";
+import DragSentenceQuestion from './components/DragSentenceQuestion'
+
+import './style.css'
 
 const CreateTest = () => {
   const [test, setTest] = useState({
-    testName: "",
+    testName: '',
     questions: {
       step1: [{}],
       step2: [{}],
     },
-  });
+  })
 
   return (
-    <div className="container">
+    <div className='container'>
       <h1> Test 4: </h1>
       <DragSentenceQuestion />
     </div>
-  );
-};
+  )
+}
 
-export default CreateTest;
+export default CreateTest
