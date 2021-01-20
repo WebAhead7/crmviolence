@@ -1,4 +1,31 @@
-* {
+/* * {
   text-align: center;
   align-items: center;
+} */
+.titlescenter {
+  text-align: center;
+  padding-top: 20px;
+}
+.btnflex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.btnstage {
+  background: rgb(45, 125, 230);
+  border-radius: 12px;
+  margin-left: 5px;
+  font-family: 'Comic Neue', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 14px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  padding: 10px 20px;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }

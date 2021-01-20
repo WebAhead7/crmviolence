@@ -6,7 +6,7 @@ import './style.css';
 const Home = () => {
   return (
     <div className='container'>
-      <button className='btn center'>
+      <button className='btn toppush'>
         <NavLink to='/create'>Create Test</NavLink>
       </button>
       <br />
